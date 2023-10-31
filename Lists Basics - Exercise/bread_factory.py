@@ -16,7 +16,7 @@ for event in events:
             total_energy = 100
         gained_energy = total_energy - current_energy
         print(f'You gained {gained_energy} energy.')
-        print(f'Current energy: {total_energy}')
+        print(f'Current energy: {total_energy}.')
     elif type_of_event == 'order':
         if total_energy >= 30:
             total_energy -= 30
